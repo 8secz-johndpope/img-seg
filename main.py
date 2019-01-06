@@ -19,7 +19,7 @@ def main(args, imgseg):
         name, ext = os.path.splitext(args.video)
     else:
         # webcam input
-        cap = cv.VideoCapture(0)
+        cap = cv.VideoCapture(-1)
         name, ext = "webcam", ".avi"
     
     output_file = name + output_file + ext
