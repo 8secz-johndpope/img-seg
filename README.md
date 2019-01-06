@@ -26,7 +26,7 @@ docker rn -it -v $PWD:/m-rcnn m-rcnn
 ## Inference
 During inference, boxes and masks are drawn on the input image, or on each frame of the input video. If no image or video is specified, a video is generate through the webcam. To run inference locally:
 ```
-python3 run.py \
+python3 main.py \
     --image /path/to/image
     --video /path/to/video
     --conf 0.5
