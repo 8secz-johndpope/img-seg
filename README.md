@@ -20,7 +20,7 @@ docker run -it vliu15/m-rcnn:v1
 To build a local container and mount it to current directory:
 ```
 docker build -t m-rcnn .
-docker rn -it -v $PWD:/m-rcnn m-rcnn
+docker run -it -v $PWD:/m-rcnn m-rcnn
 ```
 
 ## Inference
